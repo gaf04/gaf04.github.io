@@ -1,0 +1,10 @@
+body {
+	max-width: 36em;
+	margin: 1em auto 1em auto;
+}
+
+h1,h2,h3 { font-weight: normal; }
+p { line-height: 1.4; }
+
+nav,footer { text-align: right; }
+nav a { margin-left: 1em; }
