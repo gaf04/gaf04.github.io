@@ -12,11 +12,11 @@ TMP=$(mktemp)
 	cat css/def.css
 	echo '</style>'
 
-	cat html/nav.html
+	cat html/header.html
 
 	markdown -f footnote < ${TMP}
 
-	cat html/tail.html
+	cat html/footer.html
 } | hxnormalize
 
 rm ${TMP}
