@@ -14,7 +14,11 @@ TMP=$(mktemp)
 
 	cat html/header.html
 
+	echo '<main>'
+	echo '<article>'
 	markdown -f footnote < ${TMP}
+	echo '</article>'
+	echo '</main>'
 
 	cat html/footer.html
 } | hxnormalize
