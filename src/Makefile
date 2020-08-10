@@ -1,7 +1,10 @@
-.PHONY: build clean
+.PHONY: html img clean
 
-build:
-	./sh/build.sh
+html:
+	./sh/build/html.sh
+
+img:
+	./sh/build/img.sh
 
 clean:
 	./sh/clean.sh
