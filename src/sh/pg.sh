@@ -16,7 +16,7 @@ TMP=$(mktemp)
 
 	echo '<main>'
 	echo '<article>'
-	markdown -f footnote < ${TMP}
+	pandoc < ${TMP}
 	echo '</article>'
 	echo '</main>'
 
