@@ -1,7 +1,7 @@
 #!/bin/sh
 
 _dst() {
-	echo "$*" | sed -e 's/\..*$/.png/' -e 's/^/..\//'
+	echo "$*" | sed -e 's/\..*$/.min.png/' -e 's/^/..\//'
 }
 
 _files() {
