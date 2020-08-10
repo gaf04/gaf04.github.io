@@ -2,6 +2,6 @@
 
 convert "$1"\
     -strip\
-    -ordered-dither 8x8\
+    -ordered-dither 3x3\
     -transparent white\
     "$2"
