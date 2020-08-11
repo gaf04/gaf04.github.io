@@ -33,15 +33,17 @@ _should_build() {
 for __f in $(_files); do
 	__df="$(_dst "$__f")"
 	 _should_build "$__f" "$__df" && {
-		echo "$__f -> $__df"
 		mkdir -pv "$(dirname "$__df")"
-		./sh/pg.sh < "$__f" > "$__df" &
-	}
+		./sh/pg.sh < "$__f" > "$__df"
+		echo "$__f -> $__df"
+	} &
 done
 
 for __d in $(_dirs); do
-	echo "INDEX $__d"
-	./sh/ind.sh "$__d" | ./sh/pg.sh > "$(_dst "$__d/index.html")" &
+	{
+		./sh/ind.sh "$__d" | ./sh/pg.sh > "$(_dst "$__d/index.html")"
+		echo "INDEX $__d"
+	} &
 done
 
 wait
