@@ -1,8 +1,12 @@
 # Index
 
-![Front view of the skull.](/img/skull.min.png)
+Bienvenue mes amis, à la mort de la vie.
 
 Various written things, in no particular order.
+
+![Front view of the skull.](/img/skull.min.png)
+
+Also some pictures.
 
 !["Gonzo" screen-used puppet from *Muppets From Space
 (1999)*.](/img/gonzo.min.png)
