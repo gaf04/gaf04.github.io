@@ -2,6 +2,10 @@
 
 Are you sure this is going to work?
 
+![Some pine trees.](/img/pines.min.png)
+
+![The king of pumpkins in his flagship.](/img/pumpking.min.png)
+
 I have no idea!
 
 ![Front view of the skull.](/img/skull.min.png)

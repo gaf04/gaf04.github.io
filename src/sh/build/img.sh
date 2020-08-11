@@ -12,5 +12,7 @@ for __f in $(_files); do
 	__df="$(_dst "$__f")"
 	echo "$__f -> $__df"
 	mkdir -pv "$(dirname "$__df")"
-	./sh/img.sh "$__f" "$__df"
+	./sh/img.sh "$__f" "$__df" &
 done
+
+wait
