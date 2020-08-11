@@ -2,6 +2,8 @@
 
 convert "$1"\
     -strip\
-    -ordered-dither 3x3\
+    -resize 600\
+    -colorspace Gray\
+    -ordered-dither c5x5\
     -transparent white\
     "$2"

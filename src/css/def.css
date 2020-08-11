@@ -2,12 +2,12 @@ body {
 	max-width: 36em;
 	margin: 1em auto 1em auto;
 	color: #16161d; /* Eigengrau */
-	background-color: cornsilk;
+	background-color: PapayaWhip;
 }
 
 h1,h2,h3 { font-weight: normal; }
 p { line-height: 1.4; }
-img { max-width: 100%; }
+img { width: 100%; }
 
 nav,footer { text-align: right; }
 footer { color: grey; }

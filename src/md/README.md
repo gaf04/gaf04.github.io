@@ -1,8 +1,6 @@
 # Index
 
-![A Bell System switchboard where overseas calls are handled.  Not all of
-the services shown are available during wartime conditions.  (December 22,
-1943)](/img/switchboard.min.png)
+![Front view of the skull.](/img/skull.min.png)
 
 Various written things, in no particular order.
 
