@@ -11,7 +11,6 @@ body {
 	max-width: 42rem;
 	margin: 1em auto 1em auto;
 	color: #16161d; /* Eigengrau */
-	background-color: NavajoWhite;
 	padding: 1em;
 }
 
@@ -26,7 +25,7 @@ article > h1:first-of-type, article > p:first-of-type {
 
 h1,h2,h3 { font-weight: normal; }
 p { line-height: 1.4; }
-img { width: 100%; }
+img { max-width: 100%; }
 
 nav,footer { text-align: center; margin-bottom: 1em; }
 footer { color: grey; }
@@ -46,21 +45,33 @@ footer { color: grey; }
 
         <p>Are you sure this is going to work?
 
-        <figure> <img alt="Some pine trees." src="/img/pines.min.png"
-          >
+        <p>I have no idea!
+
+        <figure> <img alt="A raspberry pi." src="/img/rpi.jpg">
+          <figcaption>A raspberry pi.</figcaption>
+        </figure>
+
+        <figure> <img alt="Lard eaters." src="/img/lardeaters.jpg">
+          <figcaption>Lard eaters.</figcaption>
+        </figure>
+
+        <figure> <img alt="Smokey the Bear wants YOU."
+          src="/img/smokeythebear.jpg">
+          <figcaption>Smokey the Bear wants YOU.</figcaption>
+        </figure>
+
+        <figure> <img alt="Some pine trees." src="/img/pines.jpg">
           <figcaption>Some pine trees.</figcaption>
         </figure>
 
         <figure> <img alt="The king of pumpkins in his flagship."
-          src="/img/pumpking.min.png">
+          src="/img/pumpking.jpg">
           <figcaption>The king of pumpkins in his flagship.</figcaption
           >
         </figure>
 
-        <p>I have no idea!
-
         <figure> <img alt="Front view of the skull."
-          src="/img/skull.min.png">
+          src="/img/skull.jpg">
           <figcaption>Front view of the skull.</figcaption>
         </figure>
 
@@ -68,7 +79,7 @@ footer { color: grey; }
 
         <figure> <img
           alt="“Gonzo” screen-used puppet from Muppets From Space (1999)."
-          src="/img/gonzo.min.png">
+          src="/img/gonzo.jpg">
           <figcaption>“Gonzo” screen-used puppet from <em>Muppets
             From Space (1999)</em>.</figcaption>
         </figure>
@@ -98,7 +109,7 @@ footer { color: grey; }
 
         <figure> <img
           alt="An approximation of Eigengrau vs. true black."
-          src="/img/eigengrau.min.png">
+          src="/img/eigengrau.jpg">
           <figcaption>An approximation of Eigengrau vs. true black.</figcaption
           >
         </figure>

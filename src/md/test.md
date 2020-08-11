@@ -2,18 +2,24 @@
 
 Are you sure this is going to work?
 
-![Some pine trees.](/img/pines.min.png)
-
-![The king of pumpkins in his flagship.](/img/pumpking.min.png)
-
 I have no idea!
 
-![Front view of the skull.](/img/skull.min.png)
+![A raspberry pi.](/img/rpi.jpg)
+
+![Lard eaters.](/img/lardeaters.jpg)
+
+![Smokey the Bear wants YOU.](/img/smokeythebear.jpg)
+
+![Some pine trees.](/img/pines.jpg)
+
+![The king of pumpkins in his flagship.](/img/pumpking.jpg)
+
+![Front view of the skull.](/img/skull.jpg)
 
 Also some pictures.
 
 !["Gonzo" screen-used puppet from *Muppets From Space
-(1999)*.](/img/gonzo.min.png)
+(1999)*.](/img/gonzo.jpg)
 
 In publishing and graphic design, Lorem ipsum is a placeholder text
 commonly used to demonstrate the visual form of a document or a typeface
@@ -35,7 +41,7 @@ templates for its desktop publishing program PageMaker.  Other popular
 word processors including Pages and Microsoft Word have since adopted
 Lorem ipsum as well.
 
-![An approximation of Eigengrau vs. true black.](/img/eigengrau.min.png)
+![An approximation of Eigengrau vs. true black.](/img/eigengrau.jpg)
 
 Eigengrau (German for "intrinsic gray", lit. 'own gray'; pronounced
 [ˈʔaɪ̯gn̩ˌgʁaʊ̯]), also called Eigenlicht (Dutch and German
@@ -63,5 +69,5 @@ prematurity". Invest. Ophthalmol. Vis. Sci. 41 (1): 320–24.
 
 [^3]: Wallach, Hans (1948). "Brightness Constancy and the Nature
 of Achromatic Colors". Journal of Experimental Psychology. 38 (3):
-310–24. [doi:10.1037/h0053804](https://doi.org/10.1037/h0053804). [PMID
-18865234](https://pubmed.ncbi.nlm.nih.gov/18865234).
+310–24. [doi:10.1037/h0053804](https://doi.org/10.1037/h0053804).
+[PMID 18865234](https://pubmed.ncbi.nlm.nih.gov/18865234).
