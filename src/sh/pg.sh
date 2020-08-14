@@ -2,7 +2,21 @@
 
 TMP=$(mktemp)
 
+_md() {
+	pandoc "$@"
+}
+
+_ttl() {
+	./sh/ttl.sh\
+	    | _md\
+	    | sed -e 's/^<p/<h1 id=title/'\
+		  -e 's|<p/>$|<h1/>$|'
+}
+
 {
+	echo '<!DOCTYPE html>'
+	echo '<html lang=en>'
+
 	cat > ${TMP}
 
 	echo "<title>$(./sh/ttl.sh < "${TMP}")</title>"
@@ -16,7 +30,10 @@ TMP=$(mktemp)
 
 	echo '<main>'
 	echo '<article>'
-	pandoc < ${TMP}
+	echo '<header>'
+	_ttl < ${TMP}
+	echo '</header>'
+	./sh/nottl.sh < ${TMP} | _md
 	echo '</article>'
 	echo '</main>'
 
