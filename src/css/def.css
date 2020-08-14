@@ -1,21 +1,40 @@
+/* #16161d is Eigengrau */
+
+@media (prefers-color-scheme: dark) {
+	body {
+		background: #16161d;
+		color: white;
+	}
+	a { color: LightBlue; }
+	a:visited { color: Plum; }
+	blockquote {
+		border-top: 1px solid white;
+		border-bottom: 1px solid white;
+	}
+}
+
+@media not (prefers-color-scheme: dark) {
+	body {
+		background: Ivory;
+		color: #16161d;
+	}
+	blockquote {
+		border-top: 1px solid black;
+		border-bottom: 1px solid black;
+	}
+}
+
 body {
 	max-width: 42rem;
 	margin: 1em auto 1em auto;
-	color: #16161d; /* Eigengrau */
 	font-family: "Georgia", "Charter", "Bitstream Charter", serif;
 }
 
 main { padding: 1em;}
 h1,h2,h3 { font-weight: normal; margin: 0; }
+blockquote { text-align: center; margin: 0; }
 p { line-height: 1.4; }
 img { max-width: 100%; }
 
 header { text-align: center; }
 header h1 { font-size: 3rem; }
-
-blockquote {
-	border-top: 2px solid black;
-	border-bottom: 2px solid black;
-	text-align: center;
-	margin: 0;
-}
